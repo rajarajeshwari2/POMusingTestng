@@ -28,6 +28,7 @@ public class TestGooglepage {
 	public void verifyGooglepage() {
 		google_search gs=new google_search(driver);
 		gs.search_page();
+		System.out.println("google search page is verified");
 		
 		
 		
